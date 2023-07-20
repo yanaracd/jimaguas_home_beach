@@ -21,10 +21,7 @@ Una vez culminado el módulo y ya con todas las herramientas necesarias, me he d
 ## Vista previa del proyecto
 Si quieres hechas un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/yanaracd/jimaguas_home_beach/blob/main/assets/img_project/home_project.jpg)
-![Captura del proyecto](https://github.com/yanaracd/jimaguas_home_beach/blob/main/assets/img_project/room_project.jpg)
-![Captura del proyecto](https://github.com/yanaracd/jimaguas_home_beach/blob/main/assets/img_project/service_project.jpg)
-![Captura del proyecto](https://github.com/yanaracd/jimaguas_home_beach/blob/main/assets/img_project/more_project.jpg)
+![Captura del proyecto](https://github.com/yanaracd/jimaguas_home_beach/blob/main/assets/img_project/page_project.jpg)
 
 ## Autor ✒️
 **Yanara Caballero Delgado**
