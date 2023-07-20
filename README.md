@@ -2,7 +2,7 @@
 ![Imagen del proyecto](https://github.com/yanaracd/jimaguas_home_beach/blob/main/assets/img_project/home_project.jpg)
 
 ## Ejemplo en vivo
-- [URL-de-github-pages-de-este-proyecto](https://yanaracd.github.io/jimaguas_home_beach/)
+- [URL Jimaguas Home Beach](https://yanaracd.github.io/jimaguas_home_beach/)
 
 ## Descripción 📑
 
@@ -21,6 +21,7 @@ Una vez culminado el módulo y ya con todas las herramientas necesarias, me he d
 ## Vista previa del proyecto
 Si quieres hechas un vistazo al proyecto, te recomiendo:
 
+![Captura del proyecto](https://github.com/yanaracd/jimaguas_home_beach/blob/main/assets/img_project/home_project.jpg)
 ![Captura del proyecto](https://github.com/yanaracd/jimaguas_home_beach/blob/main/assets/img_project/room_project.jpg)
 ![Captura del proyecto](https://github.com/yanaracd/jimaguas_home_beach/blob/main/assets/img_project/service_project.jpg)
 ![Captura del proyecto](https://github.com/yanaracd/jimaguas_home_beach/blob/main/assets/img_project/more_project.jpg)
@@ -28,7 +29,7 @@ Si quieres hechas un vistazo al proyecto, te recomiendo:
 ## Autor ✒️
 **Yanara Caballero Delgado**
 
-* [micorreo@midominio.com](yanaracaballero97@gmail.com)
+* [yanaracaballero97@gmail.com](yanaracaballero97@gmail.com)
 * [LinkedIn](https://www.linkedin.com/in/yanaracaballero97/)
 * [Porfolio web](https://github.com/yanaracd)
 
@@ -36,6 +37,5 @@ Si quieres hechas un vistazo al proyecto, te recomiendo:
 Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
   
 ## Licencia 📄
-MIT Public License v3.0
-No puede usarse comercialmente.
+MIT Public License v3.0. No puede usarse comercialmente.
  
