@@ -10,7 +10,7 @@ Jimaguas Home Beach es un proyecto personal que he tenido en mente desde hace va
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻 
 
-Una vez culminado el módulo y ya con todas las herramientas necesarias, me he dado la tarea de realizar la página web del negocio de mi mamá y mi tía. Jimaguas Home Beach se desarrolló con HTML, CSS y JAVASCRIPT, siguienguiendo como metodología CSS: SUITCSS, la que ayudó en tener un código más legible y organizado. Este proyecto me ha permitido poner en práctica todos los conocimientos obtenidos en el módulo y a tener más confianza en mí.
+Una vez culminado el módulo y ya con todas las herramientas necesarias, me he dado la tarea de realizar la página web del negocio de mi mamá y mi tía. Jimaguas Home Beach se desarrolló con HTML, CSS y JAVASCRIPT, siguiendo como metodología CSS: SUITCSS, la que ayudó en tener un código más legible y organizado. Este proyecto me ha permitido poner en práctica todos los conocimientos obtenidos en el módulo y a tener más confianza en mí.
 
 ## Tecnologías 🛠
 <!-- Iconos sacados de: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
