@@ -1,0 +1,716 @@
+<!-- Este archivo HTML contiene la página principal del sitio web
+Estructura:
+- Encabezado
+- Barra de navegación
+- Contenido principal
+- Pie de página
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+
+    <!-- Primary Meta Tags -->
+    <title>Jimaguas Home Beach</title>
+    <meta name="title" content="Jimaguas Home Beach">
+    <meta name="description"
+        content="Jimaguas Home Beach presta sus servicios de renta de habitaciones, tanto a clientes nacionales como internacionales, desde hace más de dos décadas. Es un negocio familiar liderado por las hermanas Aimée y Aidée, y se encuentra ubicado en la hermosa Playa de Varadero.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jimaguashomebeach.com">
+    <meta property="og:title" content="Jimaguas Home Beach">
+    <meta property="og:description"
+        content="Jimaguas Home Beach presta sus servicios de renta de habitaciones, tanto a clientes nacionales como internacionales, desde hace más de dos décadas. Es un negocio familiar liderado por las hermanas Aimée y Aidée, y se encuentra ubicado en la hermosa Playa de Varadero.">
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jimaguashomebeach.com">
+    <meta property="twitter:title" content="Jimaguas Home Beach">
+    <meta property="twitter:description"
+        content="Jimaguas Home Beach presta sus servicios de renta de habitaciones, tanto a clientes nacionales como internacionales, desde hace más de dos décadas. Es un negocio familiar liderado por las hermanas Aimée y Aidée, y se encuentra ubicado en la hermosa Playa de Varadero.">
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Josefin+Sans&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Encabezado de la página web -->
+    <header class="Header">
+        <div class="Header-wrapper">
+            <h1 class="Header-h1">
+                <a class="Header-a" href="#Inicio" title="Inicio">
+                    <img class="Header-img" src="assets/logo_web.png" alt="Logo Jimaguas Home Beach">
+                </a>
+            </h1>
+            <!-- Barra de navegación -->
+            <nav class="Header-nav">
+                <ul class="Header-ul">
+                    <li class="Header-li">
+                        <a class="Header-link" href="#Inicio" title="Inicio">Inicio</a>
+                    </li>
+                    <li class="Header-li">
+                        <a class="Header-link" href="#Habitaciones" title="Habitaciones">Habitaciones</a>
+                    </li>
+                    <li class="Header-li">
+                        <a class="Header-link" href="#Servicios" title="Servicios">Servicios</a>
+                    </li>
+                    <li class="Header-li">
+                        <a class="Header-link" href="#Ubicacion" title="Ubicacion">Ubicacion</a>
+                    </li>
+                    <!-- <li class="Header-li">
+                        <a class="Header-link" href="#" title="Area" target="_blank" rel="noreferrer">Area</a>
+                    </li> -->
+                    <li class="Header-li">
+                        <a class="Header-link" href="#Anfitriones" title="Anfitriones">Anfitriones</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="Header-button" title="Menu">
+                <svg class="Header-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Contenido principal de la web -->
+    <main class="Main">
+        <!-- Sección "Inicio", que contiene el slider de fotos y el formulario de reserva -->
+        <div class="Main-div Home" id="Inicio">
+            <div class="Home-slider">
+                <img class="Home-img Home-static isActive" src="assets/home/background.jpg" alt="Varadero vista aerea">
+                <img class="Home-img" loading="lazy" src="assets/home/auto_playa.jpeg"
+                    alt="Auto estacionado en la playa">
+                <img class="Home-img" loading="lazy" src="assets/home/playa_varadero.jpg" alt="Playa de Varadero">
+                <img class="Home-img" loading="lazy" src="assets/home/parque_josone.jpg" alt="Imagen">
+                <img class="Home-img" loading="lazy" src="assets/home/casa_ron.jpg" alt="Casa del ron">
+                <img class="Home-img" loading="lazy" src="assets/home/boulevard_varadero.jpg"
+                    alt="Hostal boulevard Varadero">
+                <img class="Home-img" loading="lazy" src="assets/home/casa_habano.jpg" alt="Casa del habano">
+                <img class="Home-img" loading="lazy" src="assets/home/bar_beatles.jpg" alt="Bar The Beatles">
+                <img class="Home-img" loading="lazy" src="assets/home/bus_varadero.jpeg" alt="Bus Varadero">
+                <img class="Home-img" loading="lazy" src="assets/home/cartel_varadero.jpg"
+                    alt="Parador fotografico boulevard Varadero">
+            </div>
+            <form class="Home-form" action="/send/" method="post">
+                <h3 class="Home-h3">Selecione la fecha de su reserva</h3>
+                <ul class="Home-reserva">
+                    <li class="Home-fecha">
+                        <label class="Home-label" for="llegada">Llegada</label>
+                        <input class="Home-input" id="llegada" type="date" min="2023-01-01" required>
+                    </li>
+                    <li class="Home-fecha">
+                        <label class="Home-label" for="salida">Salida</label>
+                        <input class="Home-input" id="salida" type="date" min="2023-01-01" required>
+                    </li>
+                </ul>
+                <h3 class="Home-h3">Selecione la cantidad de huéspedes</h3>
+                <select class="Home-select" name="select">
+                    <option class="Home-option" value="1" selected>1 Huésped</option>
+                    <option class="Home-option" value="2">2 Huéspedes</option>
+                    <option class="Home-option" value="3">3 Huéspedes</option>
+                    <option class="Home-option" value="4">4 Huéspedes</option>
+                </select>
+                <button class="Home-send" title="Reservar">Reservar</button>
+            </form>
+            <ul class="Home-ul">
+                <li class="Home-li isActive">
+                    <button class="Home-button" title="Point">
+                        <svg class="Home-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <circle cx="8" cy="8" r="8" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="Home-li">
+                    <button class="Home-button" title="Point">
+                        <svg class="Home-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <circle cx="8" cy="8" r="8" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="Home-li">
+                    <button class="Home-button" title="Point">
+                        <svg class="Home-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <circle cx="8" cy="8" r="8" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="Home-li">
+                    <button class="Home-button" title="Point">
+                        <svg class="Home-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <circle cx="8" cy="8" r="8" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="Home-li">
+                    <button class="Home-button" title="Point">
+                        <svg class="Home-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <circle cx="8" cy="8" r="8" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="Home-li">
+                    <button class="Home-button" title="Point">
+                        <svg class="Home-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <circle cx="8" cy="8" r="8" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="Home-li">
+                    <button class="Home-button" title="Point">
+                        <svg class="Home-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <circle cx="8" cy="8" r="8" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="Home-li">
+                    <button class="Home-button" title="Point">
+                        <svg class="Home-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <circle cx="8" cy="8" r="8" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="Home-li">
+                    <button class="Home-button" title="Point">
+                        <svg class="Home-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <circle cx="8" cy="8" r="8" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="Home-li">
+                    <button class="Home-button" title="Point">
+                        <svg class="Home-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <circle cx="8" cy="8" r="8" />
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <!-- Sección "Habitaciones", que contiene información relevante del alojamiento -->
+        <div class="Main-div Room" id="Habitaciones">
+            <div class="Room-wrapper">
+                <section class="Room-section">
+                    <h2 class="Room-h2">Jimaguas Home Beach</h2>
+                    <p class="Room-p">
+                        <strong>Jimaguas Home Beach</strong> presta sus servicios de renta de habitaciones, tanto a
+                        clientes
+                        nacionales como internacionales, desde hace más de dos décadas. Es un negocio familiar liderado
+                        por las
+                        hermanas Aimée y Aidée. <strong>Jimaguas Home Beach</strong> consta de dos habitaciones.
+                    </p>
+                    <div class="Room-div">
+                        <article class="Room-article">
+                            <img loading="lazy" src="assets/hab_1.jpg" alt="Habitacion 1" class="Room-img">
+                            <h3 class="Room-h3">Habitación 1</h3>
+                        </article>
+                        <article class="Room-article">
+                            <img loading="lazy" src="assets/hab_2.webp" alt="Habitacion 2" class="Room-img">
+                            <h3 class="Room-h3">Habitación 2</h3>
+                        </article>
+                    </div>
+                    <div class="Room-buttons">
+                        <button class="Room-button" title="Ver mas">
+                            <span class="Room-span">Ver más</span>
+                            <svg class="Room-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                <path fill-rule="evenodd"
+                                    d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </button>
+                        <button class="Room-button Room-button--disabled" title="Ver menos">
+                            <span class="Room-span">Ver menos</span>
+                            <svg class="Room-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z" />
+                                <path fill-rule="evenodd"
+                                    d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                            </svg>
+                        </button>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- Lightbox que se ejecuta al hacer click en las imágenes de las habitaciones -->
+        <div class="Main-div Lightbox">
+            <div class="Lightbox-wrapper">
+                <button class="Lightbox-button" title="Cerrar">
+                    <svg class="Lightbox-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                        <path
+                            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                    </svg>
+                </button>
+                <section class="Lightbox-section">
+                    <h3 class="Lightbox-h3">¿Qué hay en esta habitación?</h3>
+                    <article class="Lightbox-article">
+                        <h4 class="Lightbox-h4">Dormitorio</h4>
+                        <ul class="Lightbox-ul">
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/cama.png"
+                                    alt="Cama matrimonial">
+                                <h5 class="Lightbox-h5">Cama matrimonial</h5>
+                            </li>
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/television.png"
+                                    alt="Televisor">
+                                <h5 class="Lightbox-h5">Televisión nacional</h5>
+                            </li>
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/aire_acondicionado.png"
+                                    alt="Aire acondicionado">
+                                <h5 class="Lightbox-h5">Aire acondicionado</h5>
+                            </li>
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/ventilador.png"
+                                    alt="Ventilador">
+                                <h5 class="Lightbox-h5">Ventilador</h5>
+                            </li>
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/ropa.png" alt="Percha">
+                                <h5 class="Lightbox-h5">Percha</h5>
+                            </li>
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/ropa_de_cama.png"
+                                    alt="Ropa de cama">
+                                <h5 class="Lightbox-h5">Ropa de cama</h5>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="Lightbox-article">
+                        <h4 class="Lightbox-h4">Baño</h4>
+                        <ul class="Lightbox-ul">
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/agua.png"
+                                    alt="Agua fría / caliente">
+                                <h5 class="Lightbox-h5">Agua fría / caliente</h5>
+                            </li>
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/secador.png"
+                                    alt="Secador de pelo">
+                                <h5 class="Lightbox-h5">Secador de pelo</h5>
+                            </li>
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/toallas.png" alt="Toallas">
+                                <h5 class="Lightbox-h5">Toallas</h5>
+                            </li>
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/jabon.png" alt="Jabon">
+                                <h5 class="Lightbox-h5">Jabón</h5>
+                            </li>
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/papel.png"
+                                    alt="Papel Sanitario">
+                                <h5 class="Lightbox-h5">Papel Sanitario</h5>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="Lightbox-article">
+                        <h4 class="Lightbox-h4">Cocina</h4>
+                        <ul class="Lightbox-ul">
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/refrigerador.png"
+                                    alt="Refrigerador">
+                                <h5 class="Lightbox-h5">Refrigerador</h5>
+                            </li>
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/cubiertos.png"
+                                    alt="Vasos, cubiertos y platos">
+                                <h5 class="Lightbox-h5">Vasos / Cubiertos / Platos</h5>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="Lightbox-article">
+                        <h4 class="Lightbox-h4">Internet</h4>
+                        <ul class="Lightbox-ul">
+                            <li class="Lightbox-li">
+                                <img loading="lazy" class="Lightbox-img" src="assets/icons/wifi.png" alt="Wifi">
+                                <h5 class="Lightbox-h5">Wi-fi gratis (24 horas)</h5>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+            </div>
+        </div>
+        <!-- Acordeon que se ejecuta al hacer click en el botón "ver más" que se encuantra debajo de las imágenes de las habitaciones -->
+        <div class="Main-div Acordeon">
+            <div class="Acordeon-wrapper">
+                <h3 class="Acordeon-h3">Descripción de la propiedad</h3>
+                <p class="Acordeon-p">Jimaguas Home Beach se encuentra situada en la Península de Varadero, en uno de
+                    los barrios más tranquilos y céntricos de la ciudad. Muy cerca de bares, restaurantes, tiendas
+                    artesanales, centros comerciales, farmacia y hospitales. Jimaguas Home Beach queda a tan solo unos
+                    300 metros de la hermosa Playa de Varadero y justo en frente del reconocido Parque Josone. El
+                    boulevard de Varadero, el bar The Beatles, el parque de diversión Todo en Uno, la Casa del Ron, la
+                    Casa del Habano y la Calle 62, son algunos de los lugares más visitados en Varadero y se encuentran
+                    en un radio de 500 metros junto a Jimaguas Home Beach. La mejor opción si desea visitar la hermosa
+                    Playa de Varadero!</p>
+                <p class="Acordeon-p">Jimaguas Home Beach cuenta con una amplia terraza para el disfrute del sol y del
+                    delicioso desayuno preparado por las anfitrionas. Además, cuenta con una ducha de playa, para
+                    enjuagarse una vez regresen los huéspedes de la playa. El hall es un espacio más reservado, en el
+                    cuál podrán disfrutar de la Wifi que ofrece el alojamiento. Las habitaciones están equipadas
+                    totalmente, para satisfacer las necesidades del cliente, cada una con su baño privado.</p>
+                <div class="Acordeon-div">
+                    <img loading="lazy" src="assets/propiedad/exterior2.jpg" alt="Imagen aumentada"
+                        class="Acordeon-img">
+                    <div class="Acordeon-slider">
+                        <div class="Acordeon-grid">
+                            <img loading="lazy" src="assets/propiedad/exterior2.jpg"
+                                alt="Terraza exterior vista desde la entrada" class="Acordeon-image">
+                            <img loading="lazy" src="assets/propiedad/exterior3.jpg"
+                                alt="Terraza exterior vista desde el hall" class="Acordeon-image">
+                            <img loading="lazy" src="assets/propiedad/exterior1.jpg" alt="Hall de las habitaciones"
+                                class="Acordeon-image">
+                            <img loading="lazy" src="assets/propiedad/exterior4.jpg" alt="Ducha de playa"
+                                class="Acordeon-image">
+                            <img loading="lazy" src="assets/propiedad/hab11.jpg" alt="Habitacion 1 vista desde dentro"
+                                class="Acordeon-image">
+                            <img loading="lazy" src="assets/propiedad/hab12.jpg"
+                                alt="Habitacion 1 vista desde la puerta" class="Acordeon-image">
+                        </div>
+                        <div class="Acordeon-grid Acordeon-grid--disabled">
+                            <img loading="lazy" src="assets/propiedad/hab13.jpg" alt="Baño de la habitacion 1"
+                                class="Acordeon-image">
+                            <img loading="lazy" src="assets/propiedad/hab14.jpg" alt="Baño de la habitacion 1"
+                                class="Acordeon-image">
+                            <img loading="lazy" src="assets/propiedad/hab21.webp" alt="Habitacion 2 vista desde dentro"
+                                class="Acordeon-image">
+                            <img loading="lazy" src="assets/propiedad/hab22.webp"
+                                alt="Habitacion 2 vista desde la puerta" class="Acordeon-image">
+                            <img loading="lazy" src="assets/propiedad/hab23.webp" alt="Baño de la habitacion 2"
+                                class="Acordeon-image">
+                            <img loading="lazy" src="assets/propiedad/hab24.webp" alt="Baño de la habitacion 2"
+                                class="Acordeon-image">
+                        </div>
+                        <button class="Acordeon-button Acordeon-button--next" title="Next">
+                            <svg class="Acordeon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </button>
+                        <button class="Acordeon-button Acordeon-button--prev" title="Prev">
+                            <svg class="Acordeon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sección "Servicios", que contiene información sobre los servicios disponibles para el cliente -->
+        <section class="Main-div Service" id="Servicios">
+            <h2 class="Service-h2">Servicios</h2>
+            <div class="Service-wrapper">
+                <article class="Service-article Service-article--breakfast">
+                    <div class="Service-div">
+                        <img loading="lazy" src="./assets/service/breakfast.jpg" alt="Desayuno" class="Service-img">
+                        <button class="Service-button" title="Saber mas">Saber más</button>
+                    </div>
+                    <h3 class="Service-h3">Desayuno</h3>
+                </article>
+                <article class="Service-article Service-article--cleaning">
+                    <div class="Service-div">
+                        <img loading="lazy" src="./assets/service/cleaning.png" alt="Limpieza" class="Service-img">
+                        <button class="Service-button" title="Saber mas">Saber más</button>
+                    </div>
+                    <h3 class="Service-h3">Limpieza</h3>
+                </article>
+                <article class="Service-article Service-article--laundry">
+                    <div class="Service-div">
+                        <img loading="lazy" src="./assets/service/laundry.jpg" alt="Lavanderia" class="Service-img">
+                        <button class="Service-button" title="Saber mas">Saber más</button>
+                    </div>
+                    <h3 class="Service-h3">Lavandería</h3>
+                </article>
+                <article class="Service-article Service-article--taxi">
+                    <div class="Service-div">
+                        <img loading="lazy" src="./assets/service/taxi.jpg" alt="Taxi" class="Service-img">
+                        <button class="Service-button" title="Saber mas">Saber más</button>
+                    </div>
+                    <h3 class="Service-h3">Taxi</h3>
+                </article>
+            </div>
+        </section>
+        <!-- Modal que se ejecuta al hacer click en las imágenes de los servicios ofrecidos -->
+        <div class="Main-div Modal">
+            <div class="Modal-wrapper">
+                <button class="Modal-button" title="Cerrar">
+                    <svg class="Modal-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                        <path
+                            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                    </svg>
+                </button>
+                <!-- Sección dentro del modal destinada a los desayunos -->
+                <section class="Modal-section">
+                    <h3 class="Modal-h3">Desayuno</h3>
+                    <article class="Modal-article">
+                        <h4 class="Modal-h4">¿Qué incluye el desayuno?</h4>
+                        <ul class="Modal-ul">
+                            <li class="Modal-li">
+                                <img loading="lazy" src="assets/icons/fruta.png" alt="Frutas" class="Modal-img">
+                                <h5 class="Modal-h5">Frutas</h5>
+                            </li>
+                            <li class="Modal-li">
+                                <img loading="lazy" src="assets/icons/tostada.png" alt="Tostadas" class="Modal-img">
+                                <h5 class="Modal-h5">Tostadas</h5>
+                            </li>
+                            <li class="Modal-li">
+                                <img loading="lazy" src="assets/icons/jamon.png" alt="Jamon y queso" class="Modal-img">
+                                <h5 class="Modal-h5">Jamón y queso</h5>
+                            </li>
+                            <li class="Modal-li">
+                                <img loading="lazy" src="assets/icons/huevo.png" alt="Huevo" class="Modal-img">
+                                <h5 class="Modal-h5">Huevo</h5>
+                            </li>
+                            <li class="Modal-li">
+                                <img loading="lazy" src="assets/icons/leche.png" alt="Leche" class="Modal-img">
+                                <h5 class="Modal-h5">Leche</h5>
+                            </li>
+                            <li class="Modal-li">
+                                <img loading="lazy" src="assets/icons/cafe.png" alt="Cafe" class="Modal-img">
+                                <h5 class="Modal-h5">Café</h5>
+                            </li>
+                            <li class="Modal-li">
+                                <img loading="lazy" src="assets/icons/jugo.png" alt="Jugo natural de frutas"
+                                    class="Modal-img">
+                                <h5 class="Modal-h5">Jugo natural de frutas</h5>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="Modal-article">
+                        <h4 class="Modal-h4">¿Qué precio tiene el desayuno?</h4>
+                        <p class="Modal-p">El desayuno tiene un costo de 5 euros por persona.</p>
+                    </article>
+                </section>
+                <!-- Sección dentro del modal destinada a la limpieza -->
+                <section class="Modal-section">
+                    <h3 class="Modal-h3">Limpieza</h3>
+                    <article class="Modal-article">
+                        <h4 class="Modal-h4">¿Cómo funciona la limpieza?</h4>
+                        <p class="Modal-p">La reservación incluye una limpieza cada dos días, en caso de los huéspedes
+                            solicitar una limpieaza adicional tendría un costo extra.</p>
+                    </article>
+                    <article class="Modal-article">
+                        <h4 class="Modal-h4">¿Qué precio tiene la limpieza?</h4>
+                        <p class="Modal-p">La limpieaza adicional tiene un costo de 5 euros.</p>
+                    </article>
+                </section>
+                <!-- Sección dentro del modal destinada a la lavandería -->
+                <section class="Modal-section">
+                    <h3 class="Modal-h3">Lavandería</h3>
+                    <article class="Modal-article">
+                        <h4 class="Modal-h4">¿Cómo funciona la lavandería?</h4>
+                        <p class="Modal-p">El servicio de lavandería está disponible por un costo extra al de la
+                            reservación, en caso de los huéspedes necesitarlo solo debe informarlo a la anfitriona.</p>
+                    </article>
+                    <article class="Modal-article">
+                        <h4 class="Modal-h4">¿Qué precio tiene el servicio de lavandería?</h4>
+                        <p class="Modal-p">Este servicio tiene un costo de 5 euros por lavado.</p>
+                    </article>
+                </section>
+                <!-- Sección dentro del modal destinada al servicio de taxi -->
+                <section class="Modal-section">
+                    <h3 class="Modal-h3">Taxi</h3>
+                    <article class="Modal-article">
+                        <h4 class="Modal-h4">¿Cómo funciona el servicio de taxi?</h4>
+                        <p class="Modal-p">Si el huésped necesita este servicio, solo debe solicitarlo a la anfitriona.
+                            Jimaguas Home Beach cuenta con varios choferes particulares, que se ajustan al bolsillo del
+                            cliente. En caso de ser una recogida en aereopuerto debe de comunicar los datos del vuelo y
+                            el horario de llegada, así como el aereopuerto por el cual arribarían.</p>
+                    </article>
+                    <article class="Modal-article">
+                        <h4 class="Modal-h4">¿Qué precio tiene el servicio de taxi?</h4>
+                        <p class="Modal-p">El precio de este servicio varía mucho en dependencia de la solicitud del
+                            cliente y del bolsillo del mismo.</p>
+                    </article>
+                </section>
+            </div>
+
+        </div>
+        <!-- Sección "Ubicación", que contiene la localización del alojamiento en el Google Maps -->
+        <section class="Main-div Location" id="Ubicacion">
+            <h2 class="Location-h2">Ubicacion</h2>
+            <div class="Location-wrapper">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.4914471146535!2d-81.25268192495392!3d23.152256879083062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d3a1b8d5532b4f%3A0x4cf9d198157dc6cf!2sCasa%20Aidee%20B%26B!5e0!3m2!1ses-419!2ses!4v1689068848309!5m2!1ses-419!2ses"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    title="Mapa con la ubicacion del alojamiento" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+        <!-- Sección "Anfitriones", que contiene información sobre los anfitriones del alojamiento -->
+        <div class="Main-div Host" id="Anfitriones">
+            <h2 class="Host-h2">Anfitriones</h2>
+            <div class="Host-wrapper">
+                <div class="Host-article">
+                    <article class="Host-id">
+                        <img loading="lazy" class="Host-img" src="./assets/perfil_aidee.jpg"
+                            alt="foto de perfil de la anfitriona Aidee">
+                        <h3 class="Host-h3">Aidée Carmen Delgado Garcia</h3>
+                    </article>
+                    <div class="Host-contact">
+                        <ul class="Host-ul">
+                            <li class="Host-li">
+                                <svg class="Host-svg" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                </svg>
+                                <a class="Host-a" title="Telefono Anfitriona Aidee" href="tel:+5358372625"
+                                    target="_blank" rel="noreferrer">(+53)
+                                    58372625</a>
+                            </li>
+                            <li class="Host-li">
+                                <svg class="Host-svg" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                                </svg>
+                                <a class="Host-a" title="Correo Anfitriona Aidee" href="mailto:acdg@nauta.cu"
+                                    target="_blank" rel="noreferrer">acdg@nauta.cu</a>
+                            </li>
+                            <li class="Host-li">
+                                <svg class="Host-svg" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                </svg>
+                                <a class="Host-a" title="Direccion Anfitriona Aidee"
+                                    href="https://goo.gl/maps/uxddXigtKeb3vzwV6" target="_blank" rel="noreferrer">Calle
+                                    58 #201 entre 2da y 3ra Ave,
+                                    Varadero, Cuba</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Host-article">
+                    <article class="Host-id">
+                        <img loading="lazy" class="Host-img" src="./assets/perfil_yana.jpg"
+                            alt="foto de perfil de la anfitriona Yanara">
+                        <h3 class="Host-h3">Yanara Caballero Delgado</h3>
+                    </article>
+                    <div class="Host-contact">
+                        <ul class="Host-ul">
+                            <li class="Host-li">
+                                <svg class="Host-svg" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                </svg>
+                                <a class="Host-a" title="Telefono Anfitriona Yanara" href="tel:+34604135390"
+                                    target="_blank" rel="noreferrer">(+34)
+                                    604135390</a>
+                            </li>
+                            <li class="Host-li">
+                                <svg class="Host-svg" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                                </svg>
+                                <a class="Host-a" title="Correo Anfitriona Yanara"
+                                    href="mailto:yanaracaballero97@gmail.com" target="_blank"
+                                    rel="noreferrer">yanaracaballero97@gmail.com</a>
+                            </li>
+                            <li class="Host-li">
+                                <svg class="Host-svg" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                </svg>
+                                <a class="Host-a" title="Direccion Anfitriona Aidee"
+                                    href="https://goo.gl/maps/D23dPBss9VYrQTQu7" target="_blank" rel="noreferrer">Calle
+                                    Artajona, 5, Madrid, España</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="Footer">
+        <div class="Footer-wrapper">
+            <div class="Footer-left">
+                <ul class="Footer-ul">
+                    <li class="Footer-li">
+                        <a class="Footer-link" href="#Inicio" title="Inicio">Inicio</a>
+                    </li>
+                    <li class="Footer-li">
+                        <a class="Footer-link" href="#Habitaciones" title="Habitaciones">Habitaciones</a>
+                    </li>
+                    <li class="Footer-li">
+                        <a class="Footer-link" href="#Servicios" title="Servicios">Servicios</a>
+                    </li>
+                    <li class="Footer-li">
+                        <a class="Footer-link" href="#Ubicacion" title="Ubicacion">Ubicacion</a>
+                    </li>
+                    <!-- <li class="Footer-li">
+                        <a class="Footer-link" href="#" title="Area" target="_blank" rel="noreferrer">Area</a>
+                    </li> -->
+                    <li class="Footer-li">
+                        <a class="Footer-link" href="#Anfitriones" title="Anfitriones">Anfitriones</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="Footer-right">
+                <form action="/message/" method="post" class="Footer-form">
+                    <input class="Footer-input" type="text" name="contacto" placeholder="Contáctenos" required>
+                    <button class="Footer-button" title="Enviar">Enviar</button>
+                </form>
+                <div class="Footer-rrss">
+                    <ul class="Footer-ul Footer-ul--rrss">
+                        <li class="Footer-li Footer-li--rrss">
+                            <a href="https://www.facebook.com/profile.php?id=100094774231918" title="Facebook"
+                                class="Footer-a" target="_blank" rel="noreferrer">
+                                <svg class="Footer-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="Footer-li Footer-li--rrss">
+                            <a href="https://www.instagram.com/jimaguashomebeach/" title="Instagram" class="Footer-a"
+                                target="_blank" rel="noreferrer">
+                                <svg class="Footer-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="Footer-li Footer-li--rrss">
+                            <a href="https://wa.link/wj451m" title="Whatsapp" class="Footer-a" target="_blank"
+                                rel="noreferrer">
+                                <svg class="Footer-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="Footer-li Footer-li--rrss">
+                            <a href="https://airbnb.com/h/jimaguashomebeach" title="Airbnb" class="Footer-a"
+                                target="_blank" rel="noreferrer">
+                                <img loading="lazy" class="Footer-svg" src="assets/icons/airbnb.png"
+                                    alt="Icono de Airbnb">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
