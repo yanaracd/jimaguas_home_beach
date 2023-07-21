@@ -31,7 +31,7 @@ Si quieres hechas un vistazo al proyecto, te recomiendo:
 * [Porfolio web](https://github.com/yanaracd)
 
 ## Instalación 
-Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
+Este proyecto no necesita de instalación. Simplemente abre la carpeta y haz doble click en el .html
   
 ## Licencia 📄
 MIT Public License v3.0. No puede usarse comercialmente.

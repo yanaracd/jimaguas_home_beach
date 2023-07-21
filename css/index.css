@@ -59,15 +59,15 @@ form, input, textarea, label, button, fieldset, legend, select{
 :root{
   font-size: 100%;
   /* Custom Properties */
-  --title-font: 'Josefin Sans', sans-serif;  /* Tipografía de los títulos */
-  --title-transform: uppercase;              /* Títulos en mayúscula */
-  --text-font: 'Cormorant Garamond', serif;  /* Tipografía de los textos */
-  --color-white: white;                    /* Color blanco */
-  --color-beige: #D9D1C7;                  /* Color beige */
-  --color-black: black;                    /* Color negro */
-  --color-lightgray: lightgray;            /* Color lightgray */
-  --color-shadow: rgb(0,0,0,.2);           /* Sombras */
-  --color-background: rgba(0,0,0,.4);      /* Background de los lightbox */
+  --title-font: 'Josefin Sans', sans-serif;       /* Tipografía de los títulos */
+  --title-transform: uppercase;                   /* Títulos en mayúscula */
+  --text-font: 'Cormorant Garamond', sans-serif;  /* Tipografía de los textos */
+  --color-white: white;                         /* Color blanco */
+  --color-beige: #D9D1C7;                       /* Color beige */
+  --color-black: black;                         /* Color negro */
+  --color-lightgray: lightgray;                 /* Color lightgray */
+  --color-shadow: rgb(0,0,0,.2);                /* Sombras */
+  --color-background: rgba(0,0,0,.4);           /* Background de los lightbox */
 }
 
 html{
